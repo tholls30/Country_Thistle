@@ -1,0 +1,26 @@
+/*------------------------------------------------------------------
+[Stylesheet]
+Holland Design - Country Thistle
+-------------------------------------------------------------------*/
+
+#hd_hero_background {background-color: #997ECF;}
+
+#hd_info {background-color: #7B8FDC;}
+
+.hd_opacity_full{opacity: 1;}
+
+.hd_aboutus_header{
+  color: #7B8FDC;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+
+.hd_info_header{
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.hd_text_white{
+  color: #ffffff;
+  opacity: 1;
+}
