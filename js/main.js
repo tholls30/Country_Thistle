@@ -24,22 +24,14 @@ var App = { init: function() { App.Reviews();                  // reviews carous
             setTimeout(function(){$('.content_anim9').addClass('animated fadeInUp')},400);
         }, { offset: '50%' });
 
-        $('#screenshots').waypoint(function() {
-            setTimeout(function(){$('.content_anim15').addClass('animated fadeInUp')},0);
-            setTimeout(function(){$('.content_anim16').addClass('animated fadeInUp')},200);
-            setTimeout(function(){$('.content_anim17').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.content_anim18').addClass('animated fadeInUp')},600);
-            setTimeout(function(){$('.content_anim19').addClass('animated fadeInUp')},800);
-            setTimeout(function(){$('.content_anim20').addClass('animated fadeInUp')},1000);
-            setTimeout(function(){$('.content_anim21').addClass('animated fadeInUp')},1200);
-            setTimeout(function(){$('.content_anim22').addClass('animated fadeInUp')},1400);
-            setTimeout(function(){$('.content_anim23').addClass('animated fadeInUp')},1600);
-            setTimeout(function(){$('.content_anim24').addClass('animated fadeInUp')},1800);
-            setTimeout(function(){$('.content_anim25').addClass('animated fadeInUp')},2000);
+        $('#hd_social').waypoint(function() {
+            setTimeout(function(){$('.content_anim10').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.content_anim11').addClass('animated fadeInUp')},200);
+
         }, { offset: '50%' });
 
-        $('#reviews').waypoint(function() {
-            setTimeout(function(){$('.content_anim26').addClass('animated fadeInUp')},0);
+        $('#hd_reviews').waypoint(function() {
+            setTimeout(function(){$('.content_anim12').addClass('animated fadeInUp')},0);
         }, { offset: '50%' });
 
         $('#faq').waypoint(function() {
