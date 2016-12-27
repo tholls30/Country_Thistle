@@ -62,7 +62,18 @@ Holland Design - Country Thistle
   text-transform: uppercase;
 }
 
-.hd_text_white{
+.hd_text_white {
   color: #ffffff;
   opacity: 1;
 }
+
+  .hd_text_white a {
+    text-decoration: underline;
+    color: #ffffff;
+    opacity: 1;
+  }
+
+  .hd_text_white a:hover{
+    font-weight: 600;
+    color: #333333;
+  }
